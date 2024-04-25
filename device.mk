@@ -70,7 +70,9 @@ PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libalsautils \
     libtinycompress \
-    libnbaio_mono
+    libdynproc \
+    libnbaio_mono \
+    libhapticgenerator
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -405,7 +407,7 @@ PRODUCT_PACKAGES += \
 
 # Soundtrigger
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.3-impl
+    android.hardware.soundtrigger@2.3-impl:32
 
 # USB
 PRODUCT_PACKAGES += \
