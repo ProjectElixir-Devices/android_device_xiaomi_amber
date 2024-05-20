@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6893.rc \
-    init.mt6893.power.rc \
     init.mt6893.usb.rc \
     init.project.rc \
     init.target.rc \

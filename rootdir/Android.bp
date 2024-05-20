@@ -14,13 +14,6 @@ prebuilt_etc {
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.mt6893.power.rc",
-    src: "etc/init.mt6893.power.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.modem.rc",
     src: "etc/init.modem.rc",
     sub_dir: "init/hw",
